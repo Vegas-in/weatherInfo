@@ -1,10 +1,11 @@
 import React from 'react'
 import WeatherList from './WeatherList'
+import './MainComponent.css'
 
 function MainComponent() {
   return (
     <main>
-        <h2>Este es mi MainComponent</h2>
+        <h2>WEB DEL TIEMPO</h2>
         <WeatherList></WeatherList>      
     </main>
   )

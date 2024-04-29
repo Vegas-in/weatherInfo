@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import WeatherCard from './WeatherCard'
 import axios from 'axios';
+import './WeatherList.css'
 
 
 const WeatherList = () => {
@@ -82,7 +83,6 @@ const WeatherList = () => {
     return (
 
         <div>
-            <h2>TU WEB DEL TIEMPO</h2>
             <h3>Busca tu ciudad</h3>
             <form onSubmit={handleSubmit}>
                 <input name="city"/>
